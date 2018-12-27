@@ -21,7 +21,7 @@ services:
         soft: -1
         hard: -1
     volumes:
-      - esdata651:/usr/share/elasticsearch/data
+      - esdata65:/usr/share/elasticsearch/data
       ##################   for plugin install   ##################
       - ./install-plugin.sh:/tmp/install-plugin.sh
     ports:
